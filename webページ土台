@@ -1,0 +1,10 @@
+Tns-Web/
+├── index.html
+├── about.html
+├── css/
+│   └── style.css
+├── category/
+│   ├── learning.html
+│   └── money.html
+└── articles/
+    └── first-post.html
