@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   color: #253044;
-  background: #f7f8fb;
+  background: #f6f7fb;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN",
     "Yu Gothic", Meiryo, sans-serif;
   line-height: 1.9;
@@ -28,7 +28,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, .94);
+  background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid #e7eaf0;
 }
@@ -140,17 +140,9 @@ nav a:hover {
   font-size: 17px;
 }
 
-.info-card .pass {
-  color: #2d8060;
-}
-
 .section {
   max-width: 780px;
   margin: 0 auto 90px;
-}
-
-.section-number {
-  margin: 0 0 4px;
 }
 
 .section h2 {
@@ -235,29 +227,6 @@ nav a:hover {
   font-size: 14px;
 }
 
-.link-box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 25px;
-  margin-top: 24px;
-  padding: 24px 28px;
-  border-radius: 16px;
-  background: #eef4ff;
-}
-
-.link-box p {
-  margin: 4px 0 0;
-  font-size: 13px;
-}
-
-.link-box a {
-  flex-shrink: 0;
-  text-decoration: none;
-  font-weight: 800;
-  color: #4169a1;
-}
-
 .point-box {
   margin-top: 30px;
   padding: 30px;
@@ -280,64 +249,6 @@ nav a:hover {
 }
 
 .point-box p {
-  margin: 0;
-  font-size: 14px;
-}
-
-.score-card {
-  margin-top: 30px;
-  padding: 34px;
-  background: #fff;
-  border: 1px solid #dfe4ec;
-  border-radius: 18px;
-}
-
-.total-score {
-  text-align: center;
-  padding-bottom: 28px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #e8ebf0;
-}
-
-.total-score span {
-  color: #7c8799;
-}
-
-.total-score strong {
-  display: block;
-  font-size: 58px;
-  line-height: 1.2;
-}
-
-.total-score strong span {
-  font-size: 18px;
-  margin-left: 4px;
-}
-
-.score-row {
-  display: flex;
-  justify-content: space-between;
-  padding: 14px 4px;
-  border-bottom: 1px solid #edf0f4;
-}
-
-.score-row:last-child {
-  border-bottom: 0;
-}
-
-.score-row strong {
-  color: #4169a1;
-}
-
-.advice-box {
-  margin-top: 18px;
-}
-
-.advice-box h3 {
-  margin: 0 0 7px;
-}
-
-.advice-box p {
   margin: 0;
   font-size: 14px;
 }
@@ -366,17 +277,6 @@ nav a:hover {
   display: block;
   margin-top: 5px;
   font-size: 25px;
-}
-
-.summary {
-  padding: 40px;
-  border-radius: 20px;
-  background: #fff;
-  border: 1px solid #e1e6ee;
-}
-
-.summary h2 {
-  margin-top: 0;
 }
 
 .site-footer {
@@ -415,10 +315,6 @@ nav a:hover {
     font-size: 38px;
   }
 
-  .hero-text br {
-    display: none;
-  }
-
   .info-card {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 60px;
@@ -436,22 +332,8 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
 
-  .link-box {
-    display: block;
-  }
-
-  .link-box a {
-    display: inline-block;
-    margin-top: 12px;
-  }
-
   .timeline-item {
     grid-template-columns: 60px 1fr;
     gap: 10px;
-  }
-
-  .score-card,
-  .summary {
-    padding: 25px;
   }
 }
